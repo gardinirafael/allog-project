@@ -10,8 +10,8 @@ Obrigado pela oportunidade!!!
 - MySQL
 
 # Alterar dados de conexão
--cd backend
--edit app.js
+- cd backend
+- edit app.js
 
 app.use(
   connection(mysql, {
@@ -24,12 +24,12 @@ app.use(
 );
 
 # Módulos do Angular
--cd frontend
--npm install
+- cd frontend
+- npm install
 
 # Instalar express Node Js
-cd backend
-npm install -g express-generator
+- cd backend
+- npm install -g express-generator
 
 # Iniciar aplicação usando proxy devido ao CORS
 ng serve --open --proxy-config proxy.config.js
